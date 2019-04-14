@@ -1,0 +1,29 @@
+.pagination a {
+  text-decoration: none;
+  border: 1px solid blue;
+  display: inline-block;
+  min-width: 25px;
+  text-align: center;
+  padding: 5px;
+  margin: 0 -1px 0 0;
+}
+
+.pagination a:first-child {
+  border-radius: 25% 0 0 25%;
+}
+
+.pagination a:last-child {
+  border-radius: 0 25% 25% 0;
+}
+
+.pagination a:hover {
+  background: lightblue;
+}
+
+.pagination .selected {
+  background: red;
+}
+
+.pagination .selected:hover {
+  background: lightgreen;
+}
